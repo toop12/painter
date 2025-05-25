@@ -1,0 +1,56 @@
+    body {
+      font-family: 'Cairo', sans-serif;
+      background: url(img/gae.jpg);
+      background-size: cover;
+      color: #333;
+      text-align: center;
+      direction: rtl;
+      padding: 40px;
+    }
+
+    nav {
+      background-color: #fcdde1;
+      padding: 10px 0;
+      border-radius: 10px;
+      margin-bottom: 30px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #d17b88;
+      margin: 0 15px;
+      font-weight: bold;
+      font-size: 38px;
+    }
+
+    nav a:hover {
+      color: #a75b6a;
+    }
+
+    h1 {
+      color: #d17b88;
+    }
+
+    p {
+      font-size: 30px;
+      margin: 20px auto;
+      width: 70%;
+    }
+
+    .gallery img {
+      width: 200px;
+      height: 200px;
+      margin: 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      filter: drop-shadow(2px 2px 5px black);
+      transition: .3s ease-in;
+    }
+    .gallery img:hover {
+        transform: scale(1.1);
+    }
+    footer {
+      margin-top: 40px;
+      color: #ffffff;
+      background-color: #a75b6a;
+    }
